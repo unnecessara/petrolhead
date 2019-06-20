@@ -399,3 +399,5 @@ gulp.task('serve', () => {
 |   Starting everything
 -----------------------------------------------*/
 gulp.task('default', gulp.series('copy:dependency', 'scss', 'js', gulp.parallel('watch', 'serve')));
+
+gulp.task('build', gulp.series('copy:dependency', 'scss', 'js'));

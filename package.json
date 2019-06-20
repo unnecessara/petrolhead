@@ -6,7 +6,8 @@
   "description": "An animated bootstrap 4 theme",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "./node_modules/.bin/gulp"
+    "start": "./node_modules/.bin/gulp",
+    "build": "./node_modules/.bin/gulp build"
   },
   "license": "SEE LICENSE IN LICENSE.md",
   "homepage": "http://markup.themewagon.com/twbs-sparrow/",
