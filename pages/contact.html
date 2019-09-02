@@ -143,8 +143,8 @@
                             <div class="col-lg-8" data-zanim-lg='{"animation":"slide-left","delay":0.6}'
                                 data-zanim-trigger="scroll">
                                 <h1 class="text-underline d-inline-block mb-4 mb-lg-6">contact</h1>
-                                <p class="font-weight-bold mb-0 text-sans-serif">Address:<span class="ml-2 font-weight-normal">27
-                                        Highland Ave - Kentville, NS, Canada</span></p>
+                                <p class="font-weight-bold mb-0 text-sans-serif">Address:<span class="ml-2 font-weight-normal"><a href="https://www.google.ca/maps/place/27+Highland+Ave,+Kentville,+NS+B4N+2K7/@45.075011,-64.4957868,16z/data=!4m5!3m4!1s0x4b5856d68cb9b215:0x16ce4f595a1be7e6!8m2!3d45.075011!4d-64.4935981" target="#"> 27
+                                        Highland Ave - Kentville, NS, Canada</a></span></p>
                                 <p class="font-weight-bold mb-0 text-sans-serif">Phone:<span class="ml-2 font-weight-normal"><a
                                             class="text-700" href="tel:+19026707117">1-902-670-7117</a></span></p>
                                 <p class="font-weight-bold mb-4 text-sans-serif">E-mail:<span
@@ -180,28 +180,13 @@
                                 </form>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 px-0">
-                        <div class="sticky-top ovrflow-hidden-y">
-                            <div class="googlemap minh-100vh d-none d-lg-block" data-latlng="45.074990,-64.493560"
-                                data-pov='{"heading":75,"pitch":0}' data-scrollwheel="false"
-                                data-icon="assets/img/map-marker.png" data-zoom="16" data-theme="Default">
-                                <div class="marker-content py-3">
-                                    <h5>Petrolhead Motor Cars</h5>
-                                    <p>27 Highland Ave
-                                        <br>Kentville, NS</p>
-                                </div>
+                    </div> 
+                    <div class="col-lg-6 px-0 order-lg-2 d-none d-lg-block">
+                        <div class="sticky-top h-lg-100vh py-9">
+                            <div class="bg-holder" style="background-image:url(assets/img/petrol/kentvillemap.png);"
+                                data-zanim-trigger="scroll" data-zanim-lg='{"animation":"zoom-out-slide-left","delay":0.4}'>
                             </div>
-                            <!--Mobile Fallback-->
-                            <div class="googlemap minh-50vh d-lg-none" data-latlng="45.074990,-64.493560"
-                                data-pov='{"heading":75,"pitch":0}' data-scrollwheel="false"
-                                data-icon="assets/img/map-marker.png" data-zoom="17" data-theme="Default">
-                                <div class="marker-content py-3">
-                                    <h5>Petrolhead Motor Cars</h5>
-                                    <p>27 Highland Ave
-                                        <br>Kentville, NS</p>
-                                </div>
-                            </div>
+                            <!--/.bg-holder-->
                         </div>
                     </div>
                 </div>
